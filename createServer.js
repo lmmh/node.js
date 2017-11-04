@@ -10,7 +10,6 @@ http.createServer(function(req,res){
 console.log('Server running at http://localhost:3000/');
 
 //方法二
-
 var http = require('http');
 var server = http.createServer();
 server.on('request',function(req,res){//为request设置一个事件监听器
